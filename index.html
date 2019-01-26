@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .menu {
+      float: left;
+      width: 20%;
+    }
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      overflow: hidden;
+      background-color: rgb(0, 4, 255);
+    }
+    .right {
+      background-color: lightblue;
+      float: left;
+      width: 20%;
+      padding: 10px 15px;
+      margin-top: 7px;
+    }
+
+    @media only screen and (max-width:800px) {
+      /* For tablets: */
+      .main {
+        width: 80%;
+        padding: 0;
+        background-color: black
+      }
+      .right {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width:500px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width: 100%;
+        background-color: aquamarine
+      }
+    }
+  </style>
+</head>
+<body style="font-family:Verdana;">
+  <header>
+
+  <div style="background-color:#f1f1f1;padding:15px;">
+    <h1>Nirossan Vijayakumar</h1>
+    <h3>Resize the browser window</h3>
+  </div>
+  
+  <div style="overflow:auto">
+      <div class="right">
+          <a href="index.html" id="logo">Nirossan Vijayakumar</a>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+  
+    <div class="main">
+      <h2>About me</h2>
+      <p>I am a detail-oriented and collaborative Electrical Engineering professional with 6 years of combined academic and industry experience, demonstrated software and programming skills, plus a remarkable ability to execute projects from ideation to testing, seeking a new, challenging role as Electrical and Electronic Engineer.
+     
+        I find myself strongly drawn to the unique working philosophy , and believe that I am well aligned to excel in the available opportunity.  
+        
+        Throughout the progression of my career, I have developed a highly-refined skillset centred on electrical engineering. Whether designing a prototype to facilitate wireless mobile charging, researching the feasibility of expanded electric and hybrid vehicle infrastructural support, or testing vehicles in an automotive plant to guarantee quality assurance, I have consistently demonstrated the skills needed to succeed as an electrical engineer.
+       
+       </p>
+      <img src="assets/images/niro.jpg" style="width:50%">
+    </div>
+  
+   
+  
+  
+  
+  <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">  </div>
+  
+  
+
+</header>
+ 
+
+  <footer>
+    <div class="container">
+      Nirossan Vijayakumar&copy; 
+    </div>
+  </footer>
+
+</body>
+</html>
